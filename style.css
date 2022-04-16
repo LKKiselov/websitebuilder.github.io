@@ -2,6 +2,9 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+p {
+  font-size: 18px;
+}
 .section-title {
   text-align: center;
   font-size: 50px;
@@ -19,13 +22,13 @@ body {
 
 .grid div img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 450px;
+  width: 350px;
   border-radius: 20px;
   transition: width 2s;
 }
 
 .grid div img:hover {
-  width: 550px;
+  width: 400px;
   transition: width 0.4s ease;
 }
 
@@ -105,7 +108,6 @@ hr {
 .open-sans {
   background-color: #01345b;
   color: #ffcf43;
-  font-size: 110%;
 }
 
 .open-sans .regular-500 {
