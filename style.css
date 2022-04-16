@@ -1,0 +1,184 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 50px;
+  color: #5ebec4;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid div {
+  margin: 5px;
+}
+
+.grid div img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 450px;
+  border-radius: 20px;
+  transition: width 2s;
+}
+
+.grid div img:hover {
+  width: 550px;
+  transition: width 0.4s ease;
+}
+
+.softDark {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+span {
+  padding: 12px;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Energy color */
+
+.energy span.blue {
+  background-color: #5ce0d8;
+}
+
+.energy span.navy-blue {
+  background-color: #01345b;
+  color: white;
+}
+
+.energy span.orange {
+  background-color: #ffcf43;
+}
+
+/*Soft Dark color */
+
+.soft-dark span.dark {
+  background-color: #051622;
+  color: #fff;
+}
+
+.soft-dark span.green {
+  background-color: #1ba098;
+}
+
+.soft-dark span.gold {
+  background-color: #deb992;
+}
+
+/* Calm theme */
+.calm span.blue {
+  background-color: #5ebec4;
+}
+.calm span.yellow {
+  background-color: #fdf5df;
+}
+
+.calm span.pink {
+  background-color: #f92c85;
+}
+
+/* Fonts Styles */
+
+hr {
+  width: 90%;
+  margin-top: 50px;
+  height: 5px;
+  background-color: #ffcf43;
+  border: none;
+}
+.fonts .container {
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Fonts Style Open-Sans*/
+.open-sans {
+  background-color: #01345b;
+  color: #ffcf43;
+  font-size: 110%;
+}
+
+.open-sans .regular-500 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+.open-sans .semiBold-600 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.open-sans .regular-400 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Fonts Style Poppins*/
+
+.poppins {
+  background-color: #051622;
+  color: #1ba098;
+}
+
+.poppins .regular-500 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.poppins .regular-400 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.poppins .bold-600 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+/* Fonts Style Serif-Pro*/
+
+div.serif-pro {
+  background-color: #fdf5df;
+  color: #f92c85;
+}
+
+.serif-pro .regular-400 {
+  font-family: "Serif Pro", serif;
+  font-weight: 400;
+}
+
+.serif-pro .semi-bold-600 {
+  font-family: "Serif Pro", sans-serif;
+  font-weight: 600;
+}
+
+.serif-pro .bold-700 {
+  font-family: "Serif Pro", sans-serif;
+  font-weight: 700;
+}
+
+/*Heading components*/
+
+.heading-component {
+  font-size: 28px;
+  background-color: #4189bd;
+  color: white;
+}
+
+.heading-component ul {
+  list-style-type: none;
+}
+
+.marker {
+  font-family: "permanent marker", cursive;
+  letter-spacing: 2px;
+}
